@@ -31,7 +31,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>kim.screw.start.web.Booter</mainClass>
+					<mainClass>kim.screw.start.web.ScrewWebApplication</mainClass>
 				</configuration>
 				<executions>
 					<execution>

@@ -4,14 +4,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>kim.screw</groupId>
-		<artifactId>screw-platfrom</artifactId>
+		<artifactId>screw-distributor</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>screw-distributor</artifactId>
-	<packaging>pom</packaging>
-	<name>Screw Distributor</name>
+	<artifactId>screw-eureka-server</artifactId>
+	<name>Screw Eureka Server</name>
 
-	<modules>
-		<module>screw-eureka-server</module>
-	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+		</dependency>
+	</dependencies>
 </project>
